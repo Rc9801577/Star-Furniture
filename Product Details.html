@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Details — Star Furniture</title>
+  <link rel="stylesheet" href="style.css" />
+</head><body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="Homepage.html" class="brand"><img src="images/logo2.jpg" width="55px" height="65px" alt=""></a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="Homepage.html">Homepage</a></li> |
+          <li><a href="Product Listing.html">Product Listing</a></li> |
+          <li><a href="Shopping Cart.html">Shopping Cart</a></li> |
+          <li><a class="cta" href="Checkout.html">Checkout</a></li> |
+        </ul>
+      </nav>
+      <button class="nav-toggle">☰</button>
+    </div>
+  </header>  <main class="container" style="margin-top:40px;"><!-- Product Details Section -->
+<section class="grid cols-2" style="gap:40px;">
+
+  <!-- Product Image -->
+  <div class="product-image">
+    <img src="images/Classic Premium Sofa 1.png" alt="Product Image" />
+  </div>
+
+  <!-- Product Info -->
+  <div class="product-info">
+    <h1 style="margin-bottom:10px;">Classic Premium Sofa</h1>
+    <p style="font-size:1.1rem; color:#666; margin-bottom:10px;">Comfort • Luxury • Style</p>
+
+    <p class="price" style="font-size:1.6rem;">₹12,499</p>
+
+    <p style="margin:15px 0; color:#444;">
+      This Classic Premium Sofa is crafted with high density foam, soft-touch fabric
+      and a durable wooden frame. Designed for modern living rooms to enhance
+      style and comfort.
+    </p>
+
+    <!-- Add to Cart -->
+    <button class="btn primary" style="margin-right:10px;">Add to Cart</button>
+    <a href="Checkout.html" class="btn ghost">Buy Now</a>
+
+    <!-- Highlights -->
+    <h3 style="margin:25px 0 10px;">Key Features</h3>
+    <ul style="list-style:disc; margin-left:20px; line-height:1.8;">
+      <li>Soft premium upholstery</li>
+      <li>High-density foam cushions</li>
+      <li>Solid wood frame</li>
+      <li>Durable & long-lasting</li>
+      <li>Available in multiple colors</li>
+    </ul>
+
+    <!-- Select Quantity -->
+    <div style="margin-top:25px;">
+      <label for="qty">Quantity: </label>
+      <select id="qty" style="padding:6px 10px; border-radius:8px; margin-left:8px;">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+  </div>
+
+</section>
+
+<!-- Related Products -->
+<section style="margin-top:60px;">
+  <h2 style="margin-bottom:20px;">Related Products</h2>
+
+  <div class="grid cols-4">
+    <article class="product">
+      <img src="images/Luxury Chair 2.png" />
+      <h3>Luxury Chair</h3>
+      <p class="price">₹3,499</p>
+      <a class="btn small" href="Product Details.html">View</a>
+    </article>
+
+    <article class="product">
+      <img src="images/Wooden Table 1.png" />
+      <h3>Wooden Table</h3>
+      <p class="price">₹6,999</p>
+      <a class="btn small" href="Product Details.html">View</a>
+    </article>
+
+    <article class="product">
+      <img src="images/product7.jpg" />
+      <h3>Recliner Sofa</h3>
+      <p class="price">₹18,999</p>
+      <a class="btn small" href="Product Details.html">View</a>
+    </article>
+
+    <article class="product">
+      <img src="images/product8.jpg" />
+      <h3>Side Cabinet</h3>
+      <p class="price">₹3,299</p>
+      <a class="btn small" href="Product Details.html">View</a>
+    </article>
+  </div>
+</section>
+
+  </main>
+  <footer class="footer">
+    <p>© <span style="color: red;">2025</span> Star-Furniture</p>
+</footer>
+
+     
+  <script>
+    document.querySelector('.nav-toggle')?.addEventListener('click', function(){
+      document.querySelector('.main-nav')?.classList.toggle('open');
+    });
+  </script></body>
+</html>
