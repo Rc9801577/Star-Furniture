@@ -14,13 +14,13 @@
       <a href="Homepage.html" class="brand" aria-label="Star Furniture home"><img src="images/logo2.jpg" width="55px " height="65px" alt=""></a>
       <nav class="main-nav" aria-label="Primary">
         <ul>
-          <li><a href="Product Listing.html">Product Listing</a></li> |
-          <li><a href="Product Details.html">Product Details</a></li> |
-          <li><a href="Shopping Cart.html">Shopping Cart <span class="cart-badge" aria-hidden="true">0</span></a></li> |
-          <li><a class="cta" href="Checkout.html">Checkout</a></li> |
+          <li><a href="Product_Listing.html">Product Listing</a></li> |
+          <li><a href="Product_Details.html">Product Details</a></li> |
+          <li><a href="Shopping_Cart.html">Shopping Cart <span class="cart-badge" aria-hidden="true">0</span></a></li> |
+          <li><a class="cta" href="Contact_Us.html">Contact_Us</a></li> |
         </ul>
       </nav>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <button class="nav-toggle" aria-label="Toggle navigation"></button>
     </div>
   </header>  <main>
     <!-- Hero -->
@@ -129,5 +129,10 @@
     document.querySelector('.nav-toggle')?.addEventListener('click', function(){
       document.querySelector('.main-nav')?.classList.toggle('open');
     });
+
+     /* DARK BLUE MODE FUNCTION */
+        function toggleDarkBlue() {
+            document.body.classList.toggle("dark-blue");
+        }
   </script></body>
 </html>
